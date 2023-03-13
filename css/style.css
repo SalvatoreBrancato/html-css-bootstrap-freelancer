@@ -1,0 +1,36 @@
+ul{
+    list-style: none;   
+}
+.img-avatar{
+    width: 70%;
+}
+
+.line-wh{
+    height: 2px;
+    width: 70px;
+    background-color: white;
+}
+
+.line-black{
+    height: 2px;
+    width: 70px;
+    background-color: black;
+}
+
+
+
+@media only screen and (min-width: 576px){
+    .img-avatar{
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #section-2{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    
+}

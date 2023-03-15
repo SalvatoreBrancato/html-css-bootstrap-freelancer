@@ -26,7 +26,7 @@
     </header>
     <main>
         <!-- I sezione -->
-        <section class="bg-success-subtle d-flex align-items-center flex-column pb-md-3">
+        <section class="bg-green d-flex align-items-center flex-column pb-md-3">
             <img class="img-avatar" src="./img/avatar.svg" alt="img-avatar">
             <h1 class="text-white">START BOOTSTRAP</h1>
             <div class="d-flex jusify-content-center align-items-center text-white">
@@ -38,14 +38,14 @@
         </section>
 
         <!-- II sezione -->
-        <section id="section-2" class="mx-auto pb-5">
+        <section id="section-2" class="mx-auto pb-5 container-sm">
             <h2 class="text-center mt-2">PORTFOLIO</h2>
             <div class="d-flex justify-content-center align-items-center mb-2 pb-md-3">
                 <div class="line-black me-3"></div>
                 <i class="fa-solid fa-star"></i>
                 <div class="line-black ms-3"></div>
             </div>
-            <div class="row row-gap-4">
+            <div class="row row-gap-3">
                 <img class="img-thumbnail col-md-6 col-lg-4"src="./img/cabin.png" alt="">
                 <img class="img-thumbnail col-md-6 col-lg-4"src="./img/cake.png" alt="">
                 <img class="img-thumbnail col-md-6 col-lg-4"src="./img/circus.png" alt="">
@@ -56,7 +56,7 @@
         </section>
 
         <!-- III sezione -->
-        <section class="bg-success-subtle pt-5 pb-5">
+        <section class="bg-green pt-5 pb-5">
             <div class="corpo-section-3 mx-auto w-75">
                 <h2 class="text-center mt-2 text-white">ABOUT</h2>
                 <div class="d-flex justify-content-center align-items-center mb-2 text-center">
@@ -82,29 +82,18 @@
                 <i class="fa-solid fa-star"></i>
                 <div class="line-black ms-3"></div>
             </div>
-            <div class="input-group mb-3 mt-3">
-                <span class="input-group-text" id="basic-addon1">Nome</span>
-                <input type="text" class="form-control" placeholder="Mario Rossi" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3 mt-3">
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" placeholder="gmail.com" aria-label="Server">
-            </div>
-            <div class="input-group mb-3 mt-3">
-                <span class="input-group-text" id="basic-addon1">Telefono</span>
-                <input type="text" class="form-control" placeholder="091 00 00 000" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group input-group-lg mb-3 mt-3">
-                <span class="input-group-text" id="inputGroup-sizing-lg">Note</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-              </div>
-              <button type="button" class="btn btn-primary">Invia</button>
+            <form action="">
+                <input type="text" placeholder="Nome" class="form-control mb-3">
+                <input type="email" placeholder="email" class="form-control mb-3">
+                <input type="phone" placeholder="Phone" class="form-control mb-3">
+                <textarea name="" id="" cols="20" rows="5" placeholder="message" class="form-control mb-3"></textarea>
+                <button type="button" class="btn btn-primary">Invia</button>
+            </form>
         </section>
     </main>
 
     <!-- footer -->
-    <footer class="bg-dark-subtle pt-5">
+    <footer class="bg-light-gray pt-5">
         <div class="w-75 mx-auto text-center d-md-flex justify-content-md-around align-items-start text-white">
             <div class="mt-3 col-md-4">
                 <h4>LOCATION</h4>
@@ -122,7 +111,7 @@
                 <p>Freelancer is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
             </div>
         </div>
-        <div class="bg-secondary text-center pt-3 pt-md-5 pb-3 pb-md-5">
+        <div class="bg-gray text-center pt-3 pt-md-5 pb-3 pb-md-5">
             <span class="w-75 text-white">Copyright your Website 2023</span>
         </div>
     </footer>

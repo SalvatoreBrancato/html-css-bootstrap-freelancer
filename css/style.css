@@ -18,6 +18,33 @@ ul{
 }
 
 
+.bg-green{
+    background-color: rgb(68, 155, 68);
+}
+
+.bg-light-gray{
+    background-color: rgb(97, 95, 95);
+}
+
+.bg-gray{
+    background-color: rgb(59, 57, 57);
+}
+
+.form-control{
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+footer .fa-brands{
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    aspect-ratio: 1;
+}
+
 
 
 @media only screen and (min-width: 576px){

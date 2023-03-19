@@ -5,6 +5,10 @@ ul{
     width: 70%;
 }
 
+#section-2 .box-img img{
+    border-radius: 10%;
+}
+
 .line-wh{
     height: 2px;
     width: 70px;
@@ -19,15 +23,20 @@ ul{
 
 
 .bg-green{
-    background-color: rgb(68, 155, 68);
+    background-color: rgb(17, 196, 145);
 }
 
 .bg-light-gray{
-    background-color: rgb(97, 95, 95);
+    background-color: rgb(89, 88, 106);
 }
 
 .bg-gray{
-    background-color: rgb(59, 57, 57);
+    background-color: rgb(70, 74, 78);
+}
+
+.btn-white{
+    --bs-btn-color: white;
+    --bs-btn-border-color: white;
 }
 
 .form-control{
